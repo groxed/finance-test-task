@@ -14,7 +14,7 @@
         $(document).ready(function() {
             const socket = io.connect('http://localhost:4000');
             socket.emit('start');
-            socket.on('ticker', function(response) {
+            socket.on('tickers', function(response) {
                 const res = Array.isArray(response) ? response : [response];
                 const json = res.map(item => JSON.stringify(item)).join('\n');
                 const data = $(`<pre>${json}</pre><hr />`);

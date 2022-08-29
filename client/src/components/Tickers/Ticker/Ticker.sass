@@ -1,0 +1,40 @@
+.Ticker
+    display: grid
+    text-align: left
+    padding: 0.5rem 1rem
+    color: gray
+    grid-template-columns: 1fr 2fr
+    width: 100%
+
+    &:not(:last-child)
+        border-bottom: 1px dashed purple
+
+    &.selected
+        border: 2px solid red
+
+    &__info
+        display: flex
+        flex-direction: column
+        gap: 0.5rem 0
+
+    &__unwatchTickerButton
+        align-self: flex-end
+        cursor: pointer
+        text-align: right
+        color: salmon
+
+    &__name
+        align-self: center
+        color: purple
+        margin: 0
+
+    &__price
+        display: flex
+        justify-content: space-between
+        color: black
+
+        &-change
+            &--negative
+                color: red
+            &--positive
+                color: green

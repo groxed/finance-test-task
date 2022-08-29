@@ -1,0 +1,22 @@
+.TickerChoiceRow
+    display: grid
+    gap: 0 1rem
+    grid-template-columns: 1fr 2fr
+    border-bottom: 1px solid gray
+    margin-top: 1.5rem
+    padding-bottom: 1.5rem
+
+    &__title
+        text-align: left
+        align-self: center
+
+    &__availableTickers
+        display: flex
+        flex-direction: row
+        padding-bottom: 1rem
+        margin-top: 1.5rem
+        gap: 0.5rem
+        flex-wrap: wrap
+
+        &--noTickers
+            color: gray

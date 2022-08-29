@@ -1,0 +1,24 @@
+.Toast
+    border-radius: 0.5rem
+    color: white
+    position: absolute
+    bottom: 2rem
+    z-index: 100
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: row
+    padding: 1rem
+    column-gap: 0.5rem
+    left: 50%
+    transform: translate(-50%, 0)
+
+    &.type
+        &--warning
+            background-color: salmon
+        &--success
+            background-color: limegreen
+
+    &__closeButton
+        cursor: pointer
+        color: red
