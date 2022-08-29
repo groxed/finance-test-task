@@ -16,22 +16,32 @@ You can get some ideas how your application may look like on the [Google Finance
 As a bonus you can implement (please describe implemented bonus functionality in this file):
 
 -   any additional visual effects to highlight positive or negative changes in the prices
-    [+] Highlighting negative and positive price changes accordingly
+-   [+] Highlighting negative and positive price changes accordingly
+
 -   the possibility to switch on/off tickers by user
-    [+] Possibility to modify available tickers with custom name and symbol input
+-   [+] Possibility to modify available tickers with custom name and symbol input
+
 -   the possibility to specify interval time by user
-    [+] Possibility to choose the fetch interval between 1 second and 1 minute
+-   [+] Possibility to choose the fetch interval between 1 second and 1 minute
+
 -   the possibility to add/remove ticker from watching group
-    [+] Possibility to track and untrack tickers
+-   [+] Possibility to track and untrack tickers
+
 -   any additional functionality you consider useful
 
 You should use the next technologies:
 
 -   React (preferable with hooks) [+]
--   Redux (with Redux-Thunk or any other Redux middleware you are familiar) or any other state-manager library you want [+] Redux Toolkit
+-   Redux (with Redux-Thunk or any other Redux middleware you are familiar) or any other state-manager library you want
+-   [+] Redux Toolkit
+
 -   Socket.io - to connect to the service [+]
--   any UI library you want, or you can use just pure CSS [+] Sass
+
+-   any UI library you want, or you can use just pure CSS
+-   [+] Sass
+
 -   Testing Library
+-   [+] Jest, Enzyme, React Testing Library
 
 We will assess the next parts:
 
